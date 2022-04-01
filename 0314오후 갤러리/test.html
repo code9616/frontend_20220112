@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8"/>
+    <title>Responsive Web</title>
+    <!-- <script src="http://code.jquery.com/jquery-1.7.0.min.js"></script> -->
+    <script src="js/jquery.js"></script>
+    <style>
+        body {
+            padding:0px;
+            margin:0px;
+        }
+    </style>
+     <script>
+        $(document).ready(function(){
+        $('.test').css('width', $(window).width() - 50 );
+        $('.test').css('height', $(window).height() - 50 );
+           $(window).resize(function() {
+                $('.test').css('width', $(window).width() - 50 );
+                $('.test').css('height', $(window).height() - 50 );
+           });
+        }); 
+    </script>
+</head>
+<body>
+  <div class="test" style="border:1px solid gray;">
+    jquery로  넓이, 높이 조절
+  </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+#wrap{width: 1200px; height: 700px;}
+
+#header{float: left; width: 1200px; height: 100px;
+        position: relative; background-color: #00ffff;}
+#header_in .logo{float: left; width: 200px; height: 40px;
+                margin-top: 30px;
+                text-align: center;
+                background-color: chartreuse;}
+#header_in > nav{float: right; width: 700px; height: 30px;
+                background-color: wheat;
+                margin: 26px 36px 26px 0;
+                padding: 0;
+                text-align: center;
+                border: 1px solid #ccc;}
+#header_in > nav > li{float: left; margin-right: 120px;
+                    font-size: 15px;
+                    background-color: coral;}
+#header_in > nav > li > a{display: inline-block;}
+#header_in > nav > li > a:last-child{margin-right: 0;}
+#header_in > nav > li .sub_mn{display: none;
+        position: absolute; background-color: aliceblue;}
+
+
+
+
+
+
+
+
+#main{float: left; width: 1200px; height: 300px; background-color: blue;}
+
+#contents{float: left; width: 1200px; height: 200px;
+        background-color: brown; font-size: 20px;}
+#contents .info{float: left;
+        text-align: center;
+        width: 400px; height: 200px;
+        background-color: darkgoldenrod;}
+#contents .banner{float: left; width: 400px; height: 200px;
+                background-color: rgba(212, 195, 236, 0.185);}
+#contents .go{float: left; width: 400px; height: 200px;
+                background-color: darkmagenta;}
+
+#footer{float: left; width: 1200px; height: 100px;
+        background-color: yellow; font-size: 20px;}
+#footer .logo{float: left; margin-top: 30px; width: 200px; height: 40px;
+                background-color: darkgreen;}
+#footer .copylight{float: left; width: 800px; height: 100px;
+                    background-color: dodgerblue;}
+#footer .sns{float: left; width: 200px; height: 100px;
+            background-color: lightgreen;}

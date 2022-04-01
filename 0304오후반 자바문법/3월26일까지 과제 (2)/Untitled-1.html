@@ -1,0 +1,99 @@
+ <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>풀다운메뉴</title>
+    <style>
+        
+
+        
+    </style>
+    <script src="js/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+          var i = 1;//상태의 초기값
+          $('.main_mn').mouseenter(function(){
+              if(i == 1){
+                $('#submn_area').stop().css({height:'0px'}).animate({height:'250px'},500);
+                 i = 0;//초기값을 수정(작동중지)
+              }        
+          });
+          $('#submn_area').stop().mouseleave(function(){
+              i = 1 //초기값수정(작동실행)  
+              $('#submn_area').css({height:'250px'}).animate({height:'0px'},500);
+          })
+          
+          
+        });
+    </script>
+</head>
+<body>
+  <div id="wrap">
+    <section id="main">
+        <div id="header">
+            <ul class="main_mn">
+                 <li><a href="#">menu</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">menu</a></li>
+                <li><a href="#">menu</a></li>
+            </ul>
+        </div>
+        <div id="main_img">main_img</div>
+          <div id="submn_area">
+              <ul class="submn_mn">
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+              </ul>
+              <ul class="submn_mn">
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+              </ul>
+              <ul class="submn_mn">
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+              </ul>
+              <ul class="submn_mn">
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+              </ul>
+              <ul class="submn_mn">
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+              </ul>
+              <ul class="submn_mn">
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+                  <li><a href="#">menu</a></li>
+              </ul>
+          </div>
+    </section>
+  </div>
+</body>
+</html> -->

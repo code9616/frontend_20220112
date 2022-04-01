@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>폼</title>
+    <style>
+        input{}
+        .txt1{ width: 200px; height: 25px; border: 1px dotted #ccc;
+               font-size: 13px; color: blueviolet; background-color: aliceblue;}
+    </style>
+</head>
+<body>
+    <h2>폼문</h2>
+
+    <form method="post" action="./test.php">
+    <p>아이디 : <input type="text" size="20" maxlength="20" placeholder="아이디를 입력해주세요" class="txt1"></p>
+    <p>비밀번호 : <input type="password" size="20" maxlength="20" placeholder="비밀번호를 입력해주세요"></p>
+    <p>성별 : <label>남자<input type="radio" name="gender" checked></label>
+             <label>여자</label><input type="radio" name="gender" ></label></p>
+             <!-- 라디오 버튼은 그 중에서 한개만 선택되는게 기본 성질인데 그렇게 할려면 name속성을 같은 것으로 해야함 -->
+    <p>취미 :<label>드라이브<input type="checkbox"></label><label>영화감상<input type="checkbox"></label>
+        <label>게임<input type="checkbox"></label><label>등산<input type="checkbox"></label></p>   
+        
+    <p>
+        <select>
+                <option value="">선택하세요</option>
+                <option value="학생">학생</option>
+                <option value="컴퓨터/인터넷">컴퓨터/인터넷</option>
+                <option value="언론">언론</option>
+                <option value="공무원">공무원</option>
+                <option value="서비스업">서비스업</option>
+                <option value="의료">의료</option>
+                <option value="기타">기타</option>
+        </select>
+    </p>  
+    <p>
+        <textarea cols="50" rows="20"></textarea>
+    </p>
+    <p>사진 : <input type="file"></p>  
+    <p><input type="submit" value="전송"> 
+        <input type="reset" value="재작성"> 
+        <input type="button" value="클릭" onclick="alert('클릭되었어요!')"></p>
+  </form>
+</body>
+</html>

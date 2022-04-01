@@ -1,0 +1,78 @@
+  #wrap{margin: 0 120px; width: 100%;}
+
+#header{float: left; width: 1280px; height: 70px;
+        position: relative;}
+#header_in .logo{float: left; width: 139px; height: 68px;
+                text-align: center;
+                background: url(../images/cjlogo.jpg) no-repeat 0 0;
+                background-color: beige;}
+#header_in nav{float: right; width: 900px; height: 30px;
+                margin: 0 auto;
+                padding: 25px;
+                text-align: center;
+                border: 0px solid #ccc;}
+#header_in > nav > li{float: left; margin-right: 50px;
+                        font-size: 15px;}
+#header_in > nav > li > a{display: inline-block;}
+#header_in > nav > li > a:last-child{margin-right: 0;}
+#submn_area{position: absolute; top:0 px; z-index: 9999; 
+        width: 1280px; height: 0px; padding-left: 300px;
+        background-color: #ccc;
+        overflow: hidden;}
+#submn_area > ul{float: left; position: relative; margin-left: 33px;
+                text-align: center;font-size: 15px;
+                border: 1px solid #000;}
+#submn_area > ul > li{margin: 0 auto;}
+
+
+
+#main{float: left; width: 1280px; height: 800px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) ,url(../images/cjhead01.jpg);
+        background-color: #dbd9d6; color: rgb(232, 230, 227);}
+#main .section .business_tit{text-align: center;}
+#main .business_tit h2{font-size: 40px; }
+#main .business_tit p{font-size: 16px;}
+
+#main .section{position: relative; margin-top: 150px; width: 860ox; height: 540px; font-size: px;}
+#main .section ul{position: relative; float: left; margin-left: 100px;}
+#main .section ul li:first-child{margin-left: 0;}
+#main .section ul li{position: relative; float: left; margin-top: 50px; margin-left: 12px; width: 352px; box-sizing: border-box;}
+#main .section ul li a{color: rgb(232, 230, 227);}
+#main .section ul li .tit{font-size: 22px;}
+#main .section ul li span{display: block;}
+#main .section ul li .txt{margin-top: 10px; max-width: 1279px; height: 120px; font-size: 14px; line-height: 21px; letter-spacing: 0;}
+#main .section ul li .img{margin-bottom: 10px;}
+
+
+#contents{float: left; width: 1280px; height: 1200px;
+        background-color: rgb(46, 50, 51); color: rgb(232, 230, 227);}
+#contents .main_tit{position: relative; z-index: 2; width: 100%; padding-top: 146px; text-align: center;}
+#contents .main_tit h2{font-size: 40px;}
+#contents .main_tit p{font-size: 16px;}
+#contents .main_tit a{display: inline-block; border-bottom: 1px solid rgb(232, 230, 227);
+                        margin-top: 20px; color: rgb(232, 230, 227); font-size: 14px;
+                        }
+
+#contents .building_area{position: relative; padding: 40px auto 0; max-width: 100%; height: 100%; box-sizing: border-box;}
+#contents .building_area .building1{position: absolute; margin-top: 50px; left: 532px;}
+#contents .building_area .building1 .txt{position: absolute; margin-top: -180px; width: 180px; height: 20px; background-color: rgb(0, 0, 0, 0.6);
+                                        font-size: 16px; text-align: center;}
+#contents .building_area .building2{position: absolute; margin-top: 122px; left: 355px;}
+#contents .building_area .building2 .txt{position: absolute; margin: -92px 0 0 -10px; width: 180px; height: 20px; font-size: 16px; text-align: center;}
+
+#contents .building_area .building3{position: absolute; margin-top: 230px; left: 255px;}
+#contents .building_area .building3 .txt{position: absolute; margin: -172px 0 0 13px; width: 220px; height: 20px; font-size: 16px; text-align: center;}
+
+#contents .building_area .building4{position: absolute; margin-top: 300px; left: 532px;}
+#contents .building_area .building4 .txt{position: absolute; margin: -105px 0 0 -20px; width: 180px; height: 20px; font-size: 16px; text-align: center;}
+
+#contents .building_area .building5{position: absolute; margin-top: 300px; left: 752px;}
+#contents .building_area .building5 .txt{position: absolute; margin: -345px 0 0 -30px; width: 180px; height: 20px; font-size: 16px; text-align: center;}
+
+#contents .building_area .building6{position: absolute; margin-top: 419px; left: 408px;}
+#contents .building_area .building6 .txt{position: absolute; margin: -240px 0 0 10px; width: 180px; height: 20px; font-size: 16px; text-align: center;}
+
+#contents .building_area .building7{position: absolute; margin-top: 419px; left: 240px;}
+#contents .building_area .building7 .txt{position: absolute; margin: -130px 0 0 -10px; width: 180px; height: 20px; font-size: 16px; text-align: center;}
+
+#footer{float: left; width: 1280px; height: 100px; background-color: cadetblue;}

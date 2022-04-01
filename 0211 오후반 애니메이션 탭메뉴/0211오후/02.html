@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0; padding:0;}
+
+        .box01{ margin: 100px 0 0 100px;
+                width: 300px; height: 300px; margin-bottom:20px;
+                background-color:#ccc;
+                transform: scale(1);}
+       
+         .box02{ margin: 100px 0 0 100px;
+                width: 300px; height: 300px; margin-bottom:20px;
+                background-color:#ccc;
+                transform: rotate(45deg);}  
+                
+         .box03{ margin: 100px 0 0 100px;
+                width: 300px; height: 300px; margin-bottom:20px;
+                background-color:#ccc;
+                transform: skew(-45deg, -15deg);}    
+             
+         .box04{ margin: 100px 0 0 100px;
+                width: 300px; height: 300px; margin-bottom:20px;
+                background-color:#ccc;
+                transform:translate(100px, 50px) ;}   
+                
+          .box05{ margin: 100px 0 0 100px;
+                width: 300px; height: 300px; margin-bottom:20px;
+                background-color:blue;
+                transform:rotate(0deg); transition: 0.5s;}   
+          .box05:hover{transform:rotate(360deg); transition: 0.5s;}            
+         /* 
+         transform:요소의 형태를 변경함
+            translate([dx],[dy]) : 지정한 크기 만큼 이동 시킴
+            scale([ds]) : 지정한 배율 만큼 확대함
+            rotate([deg]) : 지정한 각도만큼 회전 시킴
+            skew([degx],[degy]) : 지정한 경사로 기울림
+
+         */
+    </style>
+</head>
+<body>
+
+    <div class="box01" ></div>
+    <div class="box02" ></div>
+    <div class="box03" ></div>
+    <div class="box04" ></div>
+    <div class="box05" ></div>
+</body>
+</html>
