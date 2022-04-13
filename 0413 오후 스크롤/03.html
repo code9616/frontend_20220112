@@ -136,9 +136,8 @@
 
                         }
                         }else{
-                                if(target > current){
                                 if(Math.abs(target - current) > 8){
-                                    current += 8;
+                                    current -= 8;
                                 }else{
                                     current = target;
                                     moving = false;
@@ -151,8 +150,8 @@
                                     }
                                 } 
                             }
+                        
                         }
-                    }
                     window.scrollTo({
                         top: current,
                         behavior: "smooth"
